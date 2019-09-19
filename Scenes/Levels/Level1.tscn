@@ -9,33 +9,28 @@
 [node name="Level1" type="Node"]
 
 [node name="Players" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Player_A" parent="Players" instance=ExtResource( 1 )]
 position = Vector2( 128.131, 169.588 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Player_B" parent="Players" instance=ExtResource( 2 )]
-position = Vector2( 217.914, 170.231 )
+position = Vector2( 203.757, 168.648 )
 scale = Vector2( 0.5, 0.5 )
 
 [node name="Platforms" type="Node" parent="."]
-editor/display_folded = true
 
 [node name="Platform_A" parent="Platforms" instance=ExtResource( 3 )]
 position = Vector2( 157.521, 241.752 )
 scale = Vector2( 0.5, 0.5 )
-motion = Vector2( 0, 150 )
 cycle = 5.0
 
 [node name="Platform_B" parent="Platforms" instance=ExtResource( 4 )]
 position = Vector2( 843.493, 353.032 )
 scale = Vector2( 0.5, 0.5 )
-motion = Vector2( 0, 270 )
 cycle = 5.0
 
 [node name="Platform_C" parent="Platforms" instance=ExtResource( 5 )]
 position = Vector2( 495.319, 331.505 )
 scale = Vector2( 0.5, 0.5 )
-motion = Vector2( 0, 200 )
 cycle = 8.0
